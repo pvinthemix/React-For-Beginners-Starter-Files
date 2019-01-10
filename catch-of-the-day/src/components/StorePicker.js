@@ -1,0 +1,17 @@
+import React, { Component, Fragment } from 'react';
+
+
+export default class StorePicker extends Component {
+
+  render() {
+    return (
+      <Fragment>
+        <form className= "store-selector">
+          <h2>Please Enter A Store</h2>
+          <input type='test' required placeholder='Store Name'/>
+          <button type="submit">Visit Store -></button>
+        </form>
+      </Fragment>
+    )
+  }
+} 
