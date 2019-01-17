@@ -3,20 +3,19 @@ import Header from "./Header";
 import Inventory from "./Inventory";
 import Order from "./Order";
 
-
-
-export default class App extends Component {
+class App extends Component {
 
   render() {
     return (
       <div className="catch-of-the-day">
         <div className='menu'>
-          <Header />
+          <Header tagline="Fresh Seafood Market"/>
         </div>
-
         <Inventory />
         <Order />
       </div>
     )
   }
 }
+
+export default App;

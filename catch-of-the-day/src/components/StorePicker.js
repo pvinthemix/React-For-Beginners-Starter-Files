@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 
-export default class StorePicker extends Component {
+class StorePicker extends Component {
 
   render() {
     return (
@@ -15,3 +15,5 @@ export default class StorePicker extends Component {
     )
   }
 } 
+
+export default StorePicker;

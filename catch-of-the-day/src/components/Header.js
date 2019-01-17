@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class Header extends Component {
+class Header extends Component {
   render() {
     return (
       <header className="top">
@@ -12,9 +12,11 @@ export default class Header extends Component {
           Day
           </h1>
         <h3 className="tagline">
-          <span>Fresh SeaFood Market</span> 
+          <span>{this.props.tagline}</span> 
         </h3>
       </header>
     );
   }
 }
+
+export default Header;
